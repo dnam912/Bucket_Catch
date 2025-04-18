@@ -21,7 +21,7 @@ pygame.display.set_caption('Welcome to Bucket Catcher Game in CCN')
 
 
 # DISPLAY IMAGES
-basket = pygame.image.load('bsck.png')
+bucket = pygame.image.load('bck.png')
 pygame.display.set_icon(basket)
 bg_img = pygame.image.load('bg.jpg')
 
