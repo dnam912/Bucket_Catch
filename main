@@ -42,7 +42,7 @@ while True:
 
 
 
-"
+'''
     rect2 = pygame.Rect(0, 0, 75, 75)
     rect1 = pygame.Rect(0, 0, 25, 25)
     
@@ -59,7 +59,7 @@ while True:
             pygame.draw.rect(screen, colorRect2, rect2, 6, 1)
         else:
             pygame.draw.rect(screen, colorRect, rect2, 6, 1)
-"
+'''
 
 
 pygame.quit()
