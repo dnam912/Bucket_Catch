@@ -13,7 +13,7 @@ shapeColor = (0, 51, 204)
 shapeColorOver = (255, 0, 204)
 
 # DISPLAY THE GAME SCREEN
-screen_size = screen_width, screen_height = 1000, 600
+screen_size = screen_width, screen_height = 1920, 1040
 screen = pygame.display.set_mode(screen_size)
 
 # START A MESSAGE
@@ -22,8 +22,8 @@ pygame.display.set_caption('Welcome to Bucket Catcher Game in CCN')
 
 # DISPLAY IMAGES
 bucket = pygame.image.load('bck.png')
-pygame.display.set_icon(basket)
-bg_img = pygame.image.load('bg.jpg')
+pygame.display.set_icon(bucket)
+bg_img = pygame.image.load('images\eegg_jjs9_210210_generated.jpg')
 
 # TICKING CLOCK
 fps = pygame.time.Clock()
