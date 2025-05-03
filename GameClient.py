@@ -5,7 +5,7 @@ import time
 
 def client_program():
     print("trying to connect to server")
-    host = "10.22.57.125"
+    host = "10.5.2.190"
     port = 5050  # socket server port number
 
     client_socket = socket.socket()  # instantiate
